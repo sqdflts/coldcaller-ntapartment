@@ -1,2 +1,7 @@
 # coldcaller-ntapartment
 super simple and crudely written bypass for usermode winapi hooks
+# how it works
+ntacc_retrieve_syscall_id gets a syscall id from a function via ntdll stub
+the returned BYTE can be input into a function like the function defined in ntacc-shellcode-build.cpp, shellcodes are built, then ran.
+
+I'm not entirely sure if this works because I've done a lack of testing
