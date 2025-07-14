@@ -28,8 +28,3 @@ int ntacc_retrieve_syscall_id(const char* func)
 
     return addr[4];
 };
-
-void ntacc_lickbigcock()
-{
-    cout << "\033[94m>\033[0m faggot";
-}
